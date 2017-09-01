@@ -1,6 +1,6 @@
 set nocompatible
 
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 Plug 'mattn/emmet-vim'
 Plug 'mbbill/fencview'
