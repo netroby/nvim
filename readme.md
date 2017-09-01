@@ -14,7 +14,7 @@ sudo pip install neovim
 
 ```
 git clone https://github.com/netroby/nvim.git ~/.config/nvim
-vim -c 'PlugInstall'
+nvim -c 'PlugInstall'
 cd ~/.config/nvim/plugged/YouCompleteMe
 ./install.py --all
 ```
