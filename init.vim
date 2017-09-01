@@ -24,7 +24,6 @@ Plug 'cespare/vim-toml'
 Plug 'toyamarinyon/vim-swift'
 Plug 'rdnetto/YCM-Generator'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
-Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'junegunn/fzf', { 'do': 'yes \| ./install' }
 
