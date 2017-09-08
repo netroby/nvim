@@ -64,12 +64,4 @@ map! <F7> :NERDTreeToggle<RETURN>
 map <F9> :FencAutoDetect<RETURN>
 map! <F9> :FencAutoDetect<RETURN>
 
-xnoremap p pgvy
 set backspace=2
-
-if has('conceal')
-set conceallevel=2 concealcursor=i
-endif
-hi CursorLine   cterm=NONE ctermbg=235
-hi CursorColumn cterm=NONE ctermbg=235
-nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
