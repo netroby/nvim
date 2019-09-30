@@ -1,9 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'mattn/emmet-vim'
 Plug 'mbbill/fencview'
 Plug 'scrooloose/nerdtree'
-Plug 'tomasr/molokai'
 
 call plug#end()
 
@@ -27,7 +25,7 @@ let $LANG = 'en_US'
 let g:NERDTreeDirArrows=0
 set fileencodings=utf-8,gbk,cp936,cp950,latin1
 set t_Co=256 
-colorscheme molokai
+colorscheme desert 
 let g:rehash256 = 1
 let g:molokai_original = 1
 let g:fencview_autodetect = 0
